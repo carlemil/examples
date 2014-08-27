@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item name="server_uri" format="string" type="string">http://sonyselect-api.sonymobile.com/sonyselect/v3</item>
+    <item name="api_key" format="string" type="string">"c42992635ffc752872dd2b19f1a79cc771d5ace8dd7319a476ead679dff6d301"</item>
+    <item name="client_name" format="string" type="string">SonySelect</item>
+    <item name="channel" format="string" type="string">sonyselect</item>
+    
+    <string-array name="content_types">
+        <item>app</item>
+        <item>game</item>
+    </string-array>
+
+</resources>
