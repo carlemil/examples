@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="usage-logger" default="help">
+
+    <!-- The project.properties file is created and updated by the 'android'
+             tool, as well as ADT.
+
+             This contains project specific properties such as project target, and library
+             dependencies. Lower level build properties are stored in ant.properties
+             (or in .classpath for Eclipse projects).
+
+             This file is an integral part of the build system for your
+             application and should be checked into Version Control Systems. -->
+    <loadproperties srcFile="project.properties" />
+
+    <!-- The local.properties file is created and updated by the 'android' tool.
+         It contains the path to the SDK. It should *NOT* be checked into
+         Version Control Systems. -->
+    <property file="local.properties" />
+
+    <!-- if sdk.dir was not set from one of the property file, then
+         get it from the ANDROID_HOME env var.
+         This must be done before we load project.properties since
+         the proguard config can use sdk.dir -->
+    <property environment="env" />
+    <condition property="sdk.dir" value="${env.ANDROIDSDK_HOME}">
+        <isset property="env.ANDROIDSDK_HOME" />
+    </condition>
+
+    <!-- quick check on sdk.dir -->
+    <fail message="sdk.dir is missing. Make sure to generate local.properties using 'android update project' (which may 
+    	generate some warnings that probably can be ignored) or set it through the ANDROIDSDK_HOME environment variable." unless="sdk.dir" />
+
+    <import file="${sdk.dir}/tools/ant/build.xml" />
+
+    <!-- =================================
+          target: help
+         ================================= -->
+    <target name="help">
+        <!-- displays starts at col 13
+                      |13                                                              80| -->
+        <echo>Logger Ant Build. Available targets:</echo>
+        <echo>  help:</echo>
+        <echo>                  Displays this help.</echo>
+        <echo />
+        <echo>  logger-clean:</echo>
+        <echo>                  Removes output files created by other targets.</echo>
+        <echo />
+        <echo>  logger-build:</echo>
+        <echo>                  Builds a snapshot of the Usage Logger lib.</echo>
+        <echo>                  The result can be found in the 'output' folder</echo>
+        <echo />
+        <echo>  logger-build-release:</echo>
+        <echo>                  Builds the Usage Logger lib and javadoc. The </echo>
+        <echo>                  version number is taken from AndroidManifest.xml</echo>
+        <echo>                  The result can be found in the 'output' folder</echo>
+    </target>
+
+
+    <!-- =================================
+          target: logger-clean
+         ================================= -->
+    <target name="logger-clean" depends="clean">
+        <delete dir="output" />
+    </target>
+
+    <!-- =================================
+          target: logger-build
+          Builds a snapshot by default
+         ================================= -->
+    <target name="logger-build" depends="release,logger-snapshot">
+    </target>
+
+    <!-- =================================
+              target: logger-build-release
+         ================================= -->
+    <target name="logger-build-release" depends="logger-clean,release,logger-release">
+    </target>
+
+    <!-- =================================
+          target: logger-copy
+         ================================= -->
+    <target name="logger-copy">
+<!--        <copy file="bin/classes.jar" tofile="output/logger.jar" /> -->
+	<jar destfile="output/logger.jar" basedir="bin/classes" />
+    </target>
+
+    <!-- =================================
+          target: logger-snapshot
+         ================================= -->
+    <target name="logger-snapshot" depends="logger-copy">
+        <!-- Value of the versionName attribute extracted from manifest file -->
+        <tstamp>
+            <format property="timestamp" pattern="yyyyMMdd_HHmm" />
+        </tstamp>
+        <echo>Building SNAPSHOT with time stamp: ${timestamp}</echo>
+        <concat destfile="output/Usage_Logger_SNAPSHOT_${timestamp}">Logger SNAPSHOT. Build time was ${timestamp}</concat>
+        <property name="jarfilename" value="usage_logger_SNAPSHOT_${timestamp}.jar" />
+        <move file="output/logger.jar" tofile="output/${jarfilename}" />
+    </target>
+
+    <!-- =================================
+              target: logger-release
+         ================================= -->
+    <target name="logger-release" depends="logger-copy,logger-javadoc">
+        <!-- Value of the versionName attribute extracted from manifest file -->
+        <xpath input="${manifest.abs.file}" expression="/manifest/@android:versionName" output="manifest.versionName" default="NO_VERSION" />
+        <echo>Building ${manifest.versionName}</echo>
+        <concat destfile="output/Logger_v${manifest.versionName}">Usage Logger version ${manifest.versionName}.</concat>
+        <property name="jarfilename" value="usage_logger_v${manifest.versionName}.jar" />
+        <move file="output/logger.jar" tofile="output/${jarfilename}" />
+    </target>
+
+    <!-- =================================
+             target: logger-javadoc
+         ================================= -->
+    <target name="logger-javadoc">
+        <dirset id="folderlist" dir="${sdk.dir}/platforms/" includes="android-*" />
+        <property name="androidversion" refid="folderlist" />
+        <echo>Android version is ${androidversion}</echo>
+
+        <javadoc destdir="output/docs" use="true" classpath="${sdk.dir}/platforms/${androidversion}/android.jar" sourcepath="gen;src" linkoffline="http://d.android.com/reference ${sdk.dir}/docs/reference" />
+    </target>
+
+</project>

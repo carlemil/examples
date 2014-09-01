@@ -1,0 +1,6 @@
+TODO:
+
+* handle reboots and scheduling:
+	After a reboot out alarm (the one that starts the service) 
+	will disappear, and we need to handle this somehow. possibly
+	by listening to a post boot broadcast.

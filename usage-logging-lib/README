@@ -1,0 +1,25 @@
+
+--- Setup ---
+
+Setup this project for eclipse:
+
+import the project:
+"File/Import/Android/Existing Android ...".
+Find the project and click "ok".
+Select The "SonyLogger" and "SonyLoggerTest" projects.
+Click finish. (You might have to import the two projects
+separately to get the eclipse import to play along.)
+
+In the "SonyLogger" project:
+Open "Properties/Java build path/Order and export" and
+deselect "Android Private Libraries".
+This will stop gson from being built into the lib (if
+you use gson externally or in the tests project building
+it into the lib would cause dex errors during build).
+
+In the SonyLoggerTest project:
+Open "Properties/Java build path/Project" and click add.
+Select the "SonyLogger project" and click ok.
+
+You should now have both projects setup and building
+in eclipse.
