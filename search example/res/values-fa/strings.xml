@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- sessionID = a3lc1c-vc7zc-hst3ew9s-1-htiiwrt2-3jf -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="StorePickerOK">تأیید</string>
+    <string name="View">دریافت</string>
+    <string name="Share">اشتراک گذاری</string>
+    <string name="InfoWelcome">به Sony Select خوش آمدید</string>
+    <string name="InfoItsFree">استفاده از آن رایگان است. نیازی به ثبت نام نیست.</string>
+    <string name="InfoDataTraffic">این برنامه، داده ها را در پس زمینه منتقل می کند. برای عملکرد بهتر و کم کردن میزان استفاده داده ها توسط دستگاه همراه، به یک شبکه Wi-Fi متصل شوید.</string>
+    <string name="InfoShareUsageData">برای بهبود توصیه ها، من موافقت می کنم که اطلاعات مربوط به استفاده با Sony به اشتراک گذاشته شود، اطلاعاتی مانند استفاده از برنامه و شناسه دستگاه. به &lt;a href=\"http://www.sonyericsson.com/cws/corporate/common/legal/privacy\"&gt;سیاست حریم خصوصی&lt;/a&gt; ما مراجعه کنید.</string>
+    <string name="Continue">ادامه</string>
+    <string name="NoNetworkError">اتصال شبکه وجود ندارد. بعدا دوباره امتحان کنید.</string>
+    <string name="License">مجوز</string>
+    <string name="DisclaimerMenuOption">سلب مسئولیت</string>
+    <string name="More">بیشتر</string>
+    <string name="Less">کمتر</string>
+</resources>

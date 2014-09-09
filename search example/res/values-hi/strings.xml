@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- sessionID = a3lc1c-vc7zc-hst3ew9s-1-htiiwrt2-3jf -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="StorePickerOK">ठी.</string>
+    <string name="View">प.क</string>
+    <string name="Share">साझा करें</string>
+    <string name="InfoWelcome">Sony Select में आपका स्वागत है</string>
+    <string name="InfoItsFree">इसका उपयोग निःशुल्क है. साइन-अप की आवश्यकता नहीं है.</string>
+    <string name="InfoDataTraffic">यह ऐप पृष्ठभूमि में डेटा स्थानांतरित करेगा. बेहतर प्रदर्शन के लिए और मोबाइल डेटा उपयोग कम करने के लिए, Wi-Fi नेटवर्क से कनेक्ट करें.</string>
+    <string name="InfoShareUsageData">अनुशंसाओं को बेहतर बनाने के लिए, मैं ऐप उपयोग और डिवाइस ID जैसे उपयोग डेटा को Sony के साथ साझा करने के लिए सहमत हूं. हमारी &lt;a href=\"http://www.sonyericsson.com/cws/corporate/common/legal/privacy\"&gt;गोपनीयता नीति&lt;/a&gt; देखें.</string>
+    <string name="Continue">जारी रखें</string>
+    <string name="NoNetworkError">कोई नेटवर्क कनेक्. नहीं. कृ बाद में पुनः प्. क</string>
+    <string name="License">लाइसेंस</string>
+    <string name="DisclaimerMenuOption">अस्वीकरण</string>
+    <string name="More">अधिक</string>
+    <string name="Less">कम</string>
+</resources>

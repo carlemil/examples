@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- sessionID = a3lc1c-vc7zc-hst3ew9s-1-htiiwrt2-3jf -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="View">Získat</string>
+    <string name="Share">Sdílet</string>
+    <string name="InfoWelcome">Vítá vás aplikace Sony Select</string>
+    <string name="InfoItsFree">Aplikace je bezplatná a nevyžaduje registraci.</string>
+    <string name="InfoDataTraffic">Tato aplikace přenáší data na pozadí. Chcete-li zvýšit výkon a snížit využití dat, připojte se k síti Wi-Fi.</string>
+    <string name="InfoShareUsageData">V zájmu vylepšení doporučení souhlasím s tím, že budu společnosti Sony poskytovat data, jako jsou informace o používání aplikace a identifikátor zařízení. Další informace naleznete v našich &lt;a href=\"http://www.sonyericsson.com/cws/corporate/common/legal/privacy\"&gt;Zásadách ochrany osobních údajů&lt;/a&gt;.</string>
+    <string name="Continue">Pokračovat</string>
+    <string name="NoNetworkError">Nelze se připojit k síti. Opakujte akci později.</string>
+    <string name="License">Licence</string>
+    <string name="DisclaimerMenuOption">Odmítnutí odpovědnosti</string>
+    <string name="More">Více</string>
+    <string name="Less">Méně</string>
+</resources>

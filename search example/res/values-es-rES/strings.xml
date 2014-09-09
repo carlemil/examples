@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- sessionID = a3lc1c-vc7zc-hst3ew9s-1-htiiwrt2-3jf -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="View">Ir</string>
+    <string name="InfoItsFree">Es gratis y no hay que registrarse.</string>
+    <string name="InfoDataTraffic">Esta aplicación transferirá datos en segundo plano. Para disfrutar de un mejor rendimiento y reducir el uso de datos móviles, conéctese a una red Wi-Fi.</string>
+    <string name="InfoShareUsageData">Para mejorar las recomendaciones, acepto compartir con Sony datos de uso, como el uso de aplicaciones y el identificador de dispositivo. Consulte nuestra &lt;a href=\"http://www.sonyericsson.com/cws/corporate/common/legal/privacy\"&gt;Política de privacidad&lt;/a&gt;.</string>
+    <string name="NoNetworkError">Sin conexión de red. Inténtelo de nuevo más tarde.</string>
+    <string name="DisclaimerMenuOption">Aviso legal</string>
+</resources>

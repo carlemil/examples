@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- sessionID = a3lc1c-vc7zc-hst3ew9s-1-htiiwrt2-3jf -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="StorePickerOK">సరే</string>
+    <string name="View">పొందు</string>
+    <string name="Share">పంచుకో</string>
+    <string name="InfoWelcome">Sony Selectకు స్వాగతం</string>
+    <string name="InfoItsFree">దీన్ని ఉచితంగా ఉపయోగించవచ్చు. సైన్ అప్ చేయాల్సిన అవసరం లేదు.</string>
+    <string name="InfoDataTraffic">ఈ అప్లికేషన్ నేపథ్యంలో డేటాను బదిలీ చేస్తుంది. ఉత్తమ పనితీరు మరియు మొబైల్ డేటా వాడకాన్ని తగ్గించడం కోసం Wi-Fi నెట్‌వర్క్‌కు కనెక్ట్ చేయండి.</string>
+    <string name="InfoShareUsageData">సిఫార్సులను మెరుగుపరచడానికి, అప్లికేషన్ వినియోగం మరియు పరికర ID వంటి వినియోగ డేటాను Sonyతో పంచడానికి నేను అంగీకరిస్తున్నాను. మా &lt;a href=\"http://www.sonyericsson.com/cws/corporate/common/legal/privacy\"&gt;గోప్యతా విధానాన్ని&lt;/a&gt; చూడండి.</string>
+    <string name="Continue">కొనసాగించు</string>
+    <string name="NoNetworkError">నెట్‌వర్క్ కనెక్షన్ లేదు. దయచేసి తర్వాత మళ్ళీ ప్రయత్నించండి.</string>
+    <string name="License">లైసెన్స్</string>
+    <string name="DisclaimerMenuOption">డిస్‌క్లైమర్</string>
+    <string name="More">మరిన్ని</string>
+    <string name="Less">తక్కువ</string>
+</resources>

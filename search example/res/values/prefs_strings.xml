@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string-array name="prefs_server_uris" translatable="false" >
+        <item>https://sonyselect-api.sonymobile.com/sonyselect/v3</item>
+        <item>https://sonyselect-api-prod.sonymobile.com/sonyselect/v3</item>
+        <item>https://sonyselect-api-dev.sonymobile.com/sonyselect/v3</item>
+        <item>https://sonyselect-api-dev-direct.sonymobile.com/sonyselect/v3</item>
+        <item>https://sonyselect-api-stage.sonymobile.com/sonyselect/v3</item>
+        <item>https://sonyselect-api-stage-direct.sonymobile.com/sonyselect/v3</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,78 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Request settings" >
+        <ListPreference
+            android:dialogTitle="Select a server url."
+            android:enabled="true"
+            android:entries="@array/prefs_server_uris"
+            android:entryValues="@array/prefs_server_uris"
+            android:key="pref_server_uri_list"
+            android:selectable="true"
+            android:summary="Select a server url."
+            android:title="Select a server url." >
+        </ListPreference>
+
+        <EditTextPreference
+            android:dialogTitle="Input a server url."
+            android:key="pref_server_uri_edittext"
+            android:summary="Input a server url."
+            android:title="Input a server url." />
+        <EditTextPreference
+            android:dialogTitle="Client Name"
+            android:key="pref_client_name"
+            android:summary="Enter client name."
+            android:title="Client Name" />
+        <EditTextPreference
+            android:dialogTitle="Client Version"
+            android:key="pref_client_version"
+            android:summary="Enter version name."
+            android:title="Client version" />
+        <EditTextPreference
+            android:dialogTitle="Set MCC"
+            android:inputType="number"
+            android:key="pref_mcc"
+            android:summary="Enter mcc."
+            android:title="MCC" />
+        <EditTextPreference
+            android:dialogTitle="Set MNC"
+            android:inputType="number"
+            android:key="pref_mnc"
+            android:summary="Enter mnc."
+            android:title="MNC" />
+        <EditTextPreference
+            android:dialogTitle="Set SPN"
+            android:key="pref_spn"
+            android:summary="Enter spn."
+            android:title="SPN" />
+        <EditTextPreference
+            android:dialogTitle="Set phone model."
+            android:key="pref_model"
+            android:summary="Enter model."
+            android:title="Build.MODEL" />
+        <EditTextPreference
+            android:dialogTitle="Set phone type"
+            android:key="pref_type"
+            android:summary="Enter type."
+            android:title="Build.TYPE" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Cache settings" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_bypass_server_cache"
+            android:summary="Bypass server-side cache."
+            android:title="Server-side cache." />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_bypass_client_cache"
+            android:summary="Bypass client-side cache."
+            android:title="Client-side cache." />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Misc" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_settings_in_actionbar"
+            android:summary="Enable settings menu in actionbar."
+            android:title="Show settings in actionbar." />
+    </PreferenceCategory>
+
+</PreferenceScreen>

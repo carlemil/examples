@@ -1,0 +1,81 @@
+PROJECT SETUP INSTRUCTIONS
+
+1. Prerequisites
+
+* Android SDK installed with version 4.0.3
+* Eclipse
+* Install the plugin "Android Configurator for M2E" from Eclipse Marketplace in Help menu.
+* Install the Eclipse Findbugs plugin
+
+
+2. Checkout the code from github
+
+* Clone the project into a folder of your choice:
+~/projects/recommender> git clone git@github.com:SonyMobile/SonySelectClient3.git
+
+* Build the project with maven:
+~/projects/recommender/SonySelectClient3(master)> mvn clean install -DskipTests=true
+
+
+3. Import the project into Eclipse
+
+* Create a new workspace and open in Eclipse.
+
+* Open up Eclipse settings and make the following changes:
+   - Under Java/Code Style/Formatter, import the formatting settings from ~/projects/recommender/SonySelectClient3/utils/storefront-formatter-export.xml
+   - Under Android/Build, set the custom debug store to ~/projects/recommender/SonySelectClient3/certs/debug.keystore
+
+* Import the project from the directory where you checked out the code:
+File -> Import... -> Maven -> Existing Maven Projects
+
+* Browse to the project:
+~/projects/recommender/SonySelectClient3
+
+4. Configure project
+
+* Open the storefront project build path:
+Right click on the storefront project -> Properties -> Java build path
+
+* In the Libraries tab click Add Library and select the library type to add:
+User Library
+
+* Click next and click on the User Libraries button.
+Enter a name eg. SemcLibraries and mark as System Library 
+
+* Click Add JARs and select:
+~/projects/recommender/SEMC-Store-Front-Client/color-extraction/payload/com.sonyericsson.colorextraction_impl.jar
+
+
+
+5. Try to run the application
+
+* Connect a phone to your computer.
+
+* Remove older version of the app from the phone by running a script:
+~/projects/recommender/SonySelectClient3/utils(master)> ./clean_client_from_phone.sh
+
+* Push the storefront.apk to the system app directory. Use the apk built when running maven earlier:
+~/projects/recommender/SonySelectClient3/storefront-android/target(master)> adb push storefront.apk /system/app
+
+* Once you have pushed the application to the system directory you can continue running the application from Eclipse.
+Right click on the storefront project -> Run as Android application.
+
+6. Configure the Findbugs Eclipse plugin
+
+* Open up the settings for either the project or the whole workspace. Configure Findbugs as follows:
+
+  - analysis effort: Default
+  - Minimum Rank to report: 20
+  - Minimum confidence to report: Medium
+  - Reported bug categories: All except experimental
+  - Mark bugs with ...rank as: Warning for all 
+  - Exclude filter files(on Filter files tab): findbugs_exclude.xml in storefront-android folder.
+  
+* The configuration is not exactly like the one maven is using, but close enough. To see what maven reports
+  as problems, you can run
+  
+     mvn findbugs:findbugs findbugs:gui
+     
+  to get the findbugs gui with maven's settings.
+  
+  

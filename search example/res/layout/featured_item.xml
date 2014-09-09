@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:select="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/featured_item"
+    android:layout_width="match_parent"
+    android:paddingBottom="@dimen/promo_header_padding_bottom"
+    android:layout_height="@dimen/promo_header_height" >
+
+    <com.sonymobile.sonyselect.components.RelativeHeightImageView
+        android:id="@id/image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true"
+        select:layout_weightHeight="9"
+        select:layout_weightWidth="16"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image_placeholder"/>
+
+    <RelativeLayout
+        android:id="@id/plate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/image"
+        android:layout_alignLeft="@id/image"
+        android:layout_alignRight="@id/image"
+        android:paddingBottom="@dimen/promo_plate_padding_bottom"
+        android:background="@drawable/feature_backplate" >
+
+        <View
+            android:id="@id/color"
+            android:layout_width="@dimen/promo_plate_color_width"
+            android:layout_height="fill_parent"
+            android:layout_alignBottom="@+id/title_genre"
+            android:layout_alignTop="@+id/title_genre"
+            android:layout_margin="9dp"
+            android:background="@drawable/color_bar" />
+
+        <LinearLayout
+            android:id="@+id/title_genre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/color"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="9dp"
+                android:layout_marginTop="9dp"
+                android:ellipsize="marquee"
+                android:gravity="left|center_vertical"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:singleLine="true"
+                android:textAppearance="@style/TextAppearanceMedium"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@id/genre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="9dp"
+                android:layout_marginRight="9dp"
+                android:ellipsize="marquee"
+                android:gravity="left|center_vertical"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:singleLine="true"
+                android:textAppearance="@style/TextAppearanceMicro"
+                android:textIsSelectable="false" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

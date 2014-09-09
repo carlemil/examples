@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="https://schemas.android.com/tools" tools:ignore="TypographyDashes">
+
+    <!--
+	    The default value here points to the debug account.
+        This value is overriden when building with the maven
+            'release' profile. You find the dominant values in
+            '{proj_dir}/release-overlay/values/GoogleAnalytics.xml'.
+    -->
+    <string name="ga_trackingId">UA-31113422-58</string>
+    
+    <!-- ga_debug is used for printing GA debug info to Logcat -->
+    <!--
+         This value is overriden when building with the maven
+            'release' profile. You find the dominant values in
+            '{proj_dir}/release-overlay/values/GoogleAnalytics.xml'.
+    -->
+    <string name="ga_logLevel">verbose</string>
+    
+    <bool name="ga_anonymizeIp">true</bool>
+
+    <string name="ga_sampleFrequency">100</string>
+    <!--
+    We'll disable automatic dispatching, and will do it ourselves. 
+    The reason is that we're not allowed to dispatch if the screen is turned off.
+    -->
+    <integer name="ga_dispatchPeriod">-1</integer>
+
+    <!-- The amount of seconds to wait between dispatching to the server. -->
+    <integer name="google_analytics_dispatch_period">1800</integer>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- sessionID = a3lc1c-vc7zc-hst3ew9s-1-htiiwrt2-3jf -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="InfoWelcome">Bienvenue à Sony Select</string>
+    <string name="InfoItsFree">Aucun frais. Aucune inscription.</string>
+    <string name="InfoDataTraffic">Cette application transfère des données en arrière-plan. La connexion à un réseau Wi-Fi permet d\'améliorer les performances et de réduire l\'utilisation de données mobiles.</string>
+    <string name="InfoShareUsageData">Pour améliorer les conseils, j\'accepte de partager avec Sony l\'utilisation des données, comme l\'utilisation des applications et l\'identifiant de l\'appareil. Veuillez consulter notre &lt;a href=\"http://www.sonyericsson.com/cws/corporate/common/legal/privacy\"&gt; Politique de confidentialité &lt;/a&gt; .</string>
+    <string name="NoNetworkError">Aucune connexion réseau. Veuillez réessayer plus tard.</string>
+    <string name="DisclaimerMenuOption">Avis de non-responsabilité</string>
+</resources>

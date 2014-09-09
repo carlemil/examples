@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2013 Sony Mobile Communications AB *
+ * Copyright (C) 2014 Sony Mobile Communications AB *
+ * Copyright (C) 2012 Sony Mobile Communications AB *
+ * Copyright (C) 2011 Sony Ericsson Mobile Communications AB *
+ SessID=0{089c7bbd-d0df-434c-bd21-fdd6a581cca4}
+-->
+<!-- sessionID = a3lc1c-vc7zc-hst3ew9s-1-htiiwrt2-3jf -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- The name of the application. "Sony Select" is not to be translated. It is written as two words with capital S and capital S. -->
+    <string name="AppNameFun" xliff:restype="x-RECOMMENDER-APP-NAME-FUN" translatable="false">Sony Select</string>
+    <!-- In the settings screen in the widget it is possible to decide which store that will be visible. Selection of stores is done with check boxes. This text will be used on a button for a positive response. -->
+    <string name="StorePickerOK" xliff:restype="x-RECOMMENDER-STORE-PICKER-OK">OK</string>
+    <!-- Button text. Takes the user to Android market -->
+    <string name="View" xliff:restype="x-RECOMMENDER-VIEW">Get</string>
+    <!-- Text on a button that, if pressed, will share a comment on Facebook. -->
+    <string name="Share" xliff:restype="x-RECOMMENDER-SHARE">Share</string>
+    <!-- Welcome text to be displayed at first start-up of the application. Sony Select should not be translated.  -->
+    <string name="InfoWelcome" xliff:restype="x-_UNLIMITED">Welcome to Sony Select</string>
+    <!-- Welcome text to be displayed at first start-up of the Sony Select application. Explains that Sony Select is free. -->
+    <string name="InfoItsFree" xliff:restype="x-_UNLIMITED">It\'s free to use. No sign-up required.</string>
+    <!-- Welcome text to be displayed at first start-up of the application. Explains the usage of background data transfers. -->
+    <string name="InfoDataTraffic" xliff:restype="x-_UNLIMITED">This app will transfer data in the background. For better performance and to reduce mobile data usage, connect to a Wi-Fi network.</string>
+    <!-- Welcome text to be displayed at first start-up of the application. The text suggests that the user should share usage data to improve recommendations. -->
+    <string name="InfoShareUsageData" xliff:restype="x-_UNLIMITED">To improve recommendations, I agree to share usage data with Sony, such as app usage and device ID. See our &lt;a href=\"http://www.sonyericsson.com/cws/corporate/common/legal/privacy\">Privacy Policy&lt;/a>.</string>
+    <!-- Button text to close a dialog and continue. -->
+    <string name="Continue" xliff:restype="x-_UNLIMITED">Continue</string>
+    <!-- Error message displayed if there is no network available -->
+    <string name="NoNetworkError" xliff:restype="x-RECOMMENDER-NO-NETWORK-ERROR">No network connection. Please try again later.</string>
+
+    <!-- License text. Should NOT be translated -->
+    <string name="EasyTrackerLicenseText" translatable="false" xliff:restype="x-_UNLIMITED">The product includes:\nThe Android Open Source Project (Support Package v4)\nProject home page: <a href="http://source.android.com/">http://source.android.com/</a>\n\nCopyright © 2006–2011 The Android Open Source Project\n\nThe Android Open Source Project is licensed under the Apache License, Version 2.0 (the \"License\").\n\nYou may obtain a copy of the License at <a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE–2.0</a>\n\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.\n\n\nEasyTracker Library for Android (Google Analytics Sample Code)\nProject home page: <a href="http://code.google.com/p/analytics-api-samples/">http://code.google.com/p/analytics-api-samples/</a>\n\nCopyright © 2011 Google Inc. All Rights Reserved.\n\nEasyTracker Library for Android is licensed under the Apache License, Version 2.0 (the \"License\").\n\nYou may obtain a copy of the License at <a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE–2.0</a>\n\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.\n</string>
+	
+    <!-- License menu option. -->
+    <string name="License" xliff:restype="x-RECOMMENDER-LICENSE">License</string>
+    <!-- Menu option that says 'Disclaimer'. -->
+    <string name="DisclaimerMenuOption" xliff:restype="x-SONYSELECT-DISCLAIMER-MENU-OPTION">Disclaimer</string>
+
+    <!-- Text in expandable list group view to indicate that you can press to expand more items in list. -->
+    <string name="More" xliff:restype="x-RECOMMENDER-MORE">More</string>
+    <!-- Text in expandable list group view to indicate that you can press to collapse items in list. -->
+    <string name="Less" xliff:restype="x-RECOMMENDER-LESS">Less</string>
+
+    <!-- Drop down menu option. -->
+    <string name="All" xliff:restype="x-RECOMMENDER-ALL">All</string>
+    <!-- Text in detail view displayed above recommended items. SONY will be shown in the dynamic parameter. -->
+    <string name="RecommendedFrom" xliff:restype="x-RECOMMENDER-RECOMMENDED-FROM">Recommended from %1$s</string>
+    
+    <!-- Search menu option. -->
+    <string name="ActionSearch" xliff:restype="x-RECOMMENDER-SEARCH">Search</string>
+    <!-- Searchbox hint text. -->
+    <string name="SearchHint" xliff:restype="x-RECOMMENDER-SEARCH-HINT">Tap to search</string>
+    <!-- Search resutl activity title. -->
+    <string name="SearchResults" xliff:restype="x-RECOMMENDER-SEARCH-RESULT-TITLE">Search results</string>
+    <!-- Message displayed if there is no content in the response -->
+    <string name="EmptyResultError" xliff:restype="x-RECOMMENDER-EMPTY-CONTENT-ERROR">Nothing found, try changing your search query.</string>
+    <!-- Error message displayed if there is any kind of unexpected response -->
+    <string name="NoContentError" xliff:restype="x-RECOMMENDER-NO-CONTENT-ERROR">An error has occurred. Please try again later.</string>
+    
+</resources>

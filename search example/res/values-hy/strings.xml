@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- sessionID = a3lc1c-vc7zc-hst3ew9s-1-htiiwrt2-3jf -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="StorePickerOK">Լավ</string>
+    <string name="View">Ստնլ</string>
+    <string name="Share">Հմգտ</string>
+    <string name="InfoWelcome">Բարի գալստ Sony Select</string>
+    <string name="InfoItsFree">Այն անվճար է: Գրանցում չի պահանջում:</string>
+    <string name="InfoDataTraffic">Այս աշխատածր կփոխանցի ետնամասի տվյալները: Ավելի լավ կատարման և բջջային տվյալների օգտագործումը նվազեցն հմր միացեք Wi-Fi ցանցին:</string>
+    <string name="InfoShareUsageData">Հանձնարար-ի բարելվմ նպատ, ես համաձ եմ հմօգտ օգտագ տվյալն Sony-ի հետ, օր.` աշխտծր օգտ և սարքի ID-ն: Տես մեր &lt;a href=\"http://www.sonyericsson.com/cws/corporate/common/legal/privacy\"&gt;Գաղտն դրույթն&lt;/a&gt;:</string>
+    <string name="Continue">Շարունակ</string>
+    <string name="NoNetworkError">Ցանցի միացում չկա: Կրկին փորձեք ավելի ուշ:</string>
+    <string name="License">Լիցենզիա</string>
+    <string name="DisclaimerMenuOption">Հրաժարում</string>
+    <string name="More">Ավել</string>
+    <string name="Less">Պակաս</string>
+</resources>

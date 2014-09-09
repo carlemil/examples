@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- sessionID = a3lc1c-vc7zc-hst3ew9s-1-htiiwrt2-3jf -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="StorePickerOK">Gerai</string>
+    <string name="View">Gauti</string>
+    <string name="Share">Dalytis</string>
+    <string name="InfoWelcome">Sveiki, čia „Sony Select“</string>
+    <string name="InfoItsFree">Ji nemokama. Nereikia registruotis.</string>
+    <string name="InfoDataTraffic">Ši programa perkelia duomenis fone. Norėdami padidinti našumą ir naudoti mažiau mobiliųjų duomenų, prisijunkite prie „Wi-Fi“ tinklo.</string>
+    <string name="InfoShareUsageData">Siekiant tobulinti rekomendacijas, sutinku bendrinti naudojimo duomenis, pavyzdžiui, programos naudojimo ir prietaiso ID, su „Sony“. Žr. mūsų &lt;a href=\"http://www.sonyericsson.com/cws/corporate/common/legal/privacy\"&gt;privatumo strategiją&lt;/a&gt;.</string>
+    <string name="Continue">Tęsti</string>
+    <string name="NoNetworkError">Nėra tinklo ryšio. Bandykite vėliau dar kartą.</string>
+    <string name="License">Licencija</string>
+    <string name="DisclaimerMenuOption">Atsakomybės atsisakymas</string>
+    <string name="More">Daugiau</string>
+    <string name="Less">Mažiau</string>
+</resources>

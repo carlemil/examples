@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item name="is_tablet" format="boolean" type="bool">true</item>
+    <item name="preview_count" format="integer" type="integer">4</item>
+    <string-array name="icon_link_rel">
+        <item>icon-medium</item>
+        <item>icon-large</item>
+        <item>icon-xlarge</item>
+        <item>icon-small</item>
+    </string-array>
+
+</resources>

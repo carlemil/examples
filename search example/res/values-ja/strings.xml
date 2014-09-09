@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- sessionID = a3lc1c-vc7zc-hst3ew9s-1-htiiwrt2-3jf -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="View">取得</string>
+    <string name="Share">共有</string>
+    <string name="InfoWelcome">Sony Selectへようこそ</string>
+    <string name="InfoItsFree">無料で利用可能です。登録も不要です。</string>
+    <string name="InfoDataTraffic">このアプリはデータをバックグラウンドで転送します。動作向上とモバイルデータ通信を軽減するためには、Wi-Fiネットワークに接続してください。</string>
+    <string name="InfoShareUsageData">おすすめ情報をより充実させるために、アプリ使用や機器ID等の使用情報をSonyと共有することに同意します。&lt;a href=\"http://www.sonyericsson.com/cws/corporate/common/legal/privacy\"&gt;プライバシーポリシー&lt;/a&gt;を確認してください。</string>
+    <string name="Continue">続行</string>
+    <string name="NoNetworkError">ネットワーク接続がありません。後でやり直してください。</string>
+    <string name="License">ライセンス</string>
+    <string name="DisclaimerMenuOption">免責事項</string>
+    <string name="More">さらに表示</string>
+    <string name="Less">折りたたむ</string>
+</resources>

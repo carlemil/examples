@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RelativeHeightImageView">
+        <attr name="layout_weightWidth" format="integer" />
+        <attr name="layout_weightHeight" format="integer" />
+    </declare-styleable>
+
+</resources>

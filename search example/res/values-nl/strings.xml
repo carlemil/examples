@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- sessionID = a3lc1c-vc7zc-hst3ew9s-1-htiiwrt2-3jf -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="View">Ophalen</string>
+    <string name="Share">Delen</string>
+    <string name="InfoWelcome">Welkom bij Sony Select</string>
+    <string name="InfoItsFree">Gratis te gebruiken. Je hoeft je niet te registreren.</string>
+    <string name="InfoDataTraffic">Deze app zet gegevens over op de achtergrond. Maak verbinding met een Wi-Fi-netwerk voor betere prestaties en om het mobiele dataverbruik te beperken.</string>
+    <string name="InfoShareUsageData">Ik ga ermee akkoord gebruiksgegevens, zoals app-gebruik en apparaat-ID, te delen met Sony om mijn aanbevelingen te verbeteren. Bekijk ons &lt;a href=\"http://www.sonyericsson.com/cws/corporate/common/legal/privacy\"&gt;Privacybeleid&lt;/a&gt;.</string>
+    <string name="Continue">Doorgaan</string>
+    <string name="NoNetworkError">Geen netwerkverbinding. Probeer het later opnieuw.</string>
+    <string name="License">Licentie</string>
+    <string name="More">Meer</string>
+    <string name="Less">Minder</string>
+</resources>

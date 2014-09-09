@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- sessionID = a3lc1c-vc7zc-hst3ew9s-1-htiiwrt2-3jf -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="StorePickerOK">Ok</string>
+    <string name="View">En.</string>
+    <string name="Share">En.b</string>
+    <string name="InfoWelcome">Sugeng rawuh ing Sony Select</string>
+    <string name="InfoItsFree">Aplikasi iki gratis. Ora kudu ndaftar.</string>
+    <string name="InfoDataTraffic">Aplikasi iki bakal ngirim data ing latar. Kanggo performa sing luwih apik lan nyuda panggunaan kuota internet, sambungake menyang jaringan Wi-Fi.</string>
+    <string name="InfoShareUsageData">Kanggo nambah rujukan, aku sarujuk kanggo nuduhake data panggunaan karo Sony, kalebu panggunaan aplikasi lan ID piranti. Waca &lt;a href=\"http://www.sonyericsson.com/cws/corporate/common/legal/privacy\"&gt;Kabijakan Privasi &lt;/a&gt;kita.</string>
+    <string name="Continue">Terusake</string>
+    <string name="NoNetworkError">Ora ana sambungan jaringan. Coba maneh mengko.</string>
+    <string name="License">Lisensi</string>
+    <string name="DisclaimerMenuOption">Penafian</string>
+    <string name="More">Luwih</string>
+    <string name="Less">Kurang</string>
+</resources>

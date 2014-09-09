@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- sessionID = a3lc1c-vc7zc-hst3ew9s-1-htiiwrt2-3jf -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="StorePickerOK">U redu</string>
+    <string name="View">Preuzmi</string>
+    <string name="Share">Dijeli</string>
+    <string name="InfoWelcome">Dobro došli u aplikaciju Sony Select</string>
+    <string name="InfoItsFree">Ona je besplatna. Ne morate se prijavljivati.</string>
+    <string name="InfoDataTraffic">Ova aplikacija prenosi podatke u pozadini. Za bolji rad i smanjenje troškova prometa mobilnih podataka povežite se na Wi-Fi mrežu.</string>
+    <string name="InfoShareUsageData">Da bi se poboljšale preporuke, pristajem da dijelim podatke o upotrebi s kompanijom Sony, npr. upotreba aplikacije i identifikacija uređaja. Pogledajte naša &lt;a href=\"http://www.sonyericsson.com/cws/corporate/common/legal/privacy\"&gt;Pravila privatnosti&lt;/a&gt;.</string>
+    <string name="Continue">Nastavi</string>
+    <string name="NoNetworkError">Nema mrežne veze. Pokušajte ponovo kasnije.</string>
+    <string name="License">Licenca</string>
+    <string name="DisclaimerMenuOption">Odricanje odgovornosti</string>
+    <string name="More">Više</string>
+    <string name="Less">Manje</string>
+</resources>

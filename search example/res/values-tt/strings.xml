@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- sessionID = a3lc1c-vc7zc-hst3ew9s-1-htiiwrt2-3jf -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="View">Алу</string>
+    <string name="Share">Уртаклашу</string>
+    <string name="InfoWelcome">Sony Select\'ка рәхим итегез</string>
+    <string name="InfoItsFree">Ул бушлай бирелә. Теркәлү таләп ителми.</string>
+    <string name="InfoDataTraffic">Бу кушымта мәгълүматны фонга күчерәчәк. Җитештерүченләкне арттыру һәм мәгълүмат тапшыруны киметү өчен, Wi-Fi челтәренә тоташыгыз.</string>
+    <string name="InfoShareUsageData">Тәкъдимнәрне яхшырту максатларында, мин кушымта белән куллану яки җайланманың уникаль идентификаторы кебек куллану мәгълүматын Sony белән уртаклашуны рөхсәт итәм. Безнең &lt;a href=\"http://www.sonyericsson.com/cws/corporate/common/legal/privacy\"&gt; Хосусыйлык кагыйдәләре &lt;/a&gt; белән танышыгыз.</string>
+    <string name="Continue">Дәвам итү</string>
+    <string name="NoNetworkError">Челтәр тоташмасы юк. Омтылышны соңрак кабатлагыз.</string>
+    <string name="License">Лицензия</string>
+    <string name="DisclaimerMenuOption">Җаваплылыктан баш тарту</string>
+    <string name="More">Күбрәк</string>
+    <string name="Less">Азрак</string>
+</resources>

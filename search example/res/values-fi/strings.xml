@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- sessionID = a3lc1c-vc7zc-hst3ew9s-1-htiiwrt2-3jf -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="StorePickerOK">Ok</string>
+    <string name="View">Hae</string>
+    <string name="Share">Jaa</string>
+    <string name="InfoWelcome">Tämä on Sony Select</string>
+    <string name="InfoItsFree">Käyttö on ilmaista. Ei kirjautumista.</string>
+    <string name="InfoDataTraffic">Tämä sovellus siirtää tietoja taustalla. Paranna tehokkuutta ja vähennä mobiilidatan käyttöä muodostamalla yhteys langattomaan lähiverkkoon.</string>
+    <string name="InfoShareUsageData">Haluan parantaa suosituksia ja hyväksyn esim. sovelluksen käyttötietojen ja laitetunnuksen jakamisen Sonylle. Katso Sonyn &lt;a href=\"http://www.sonyericsson.com/cws/corporate/common/legal/privacy\"&gt;tietosuojakäytäntö&lt;/a&gt;.</string>
+    <string name="Continue">Jatka</string>
+    <string name="NoNetworkError">Verkko ei ole käytettävissä. Yritä myöhemmin uudelleen.</string>
+    <string name="License">Käyttöoikeus</string>
+    <string name="DisclaimerMenuOption">Ilmoitus</string>
+    <string name="More">Lisää</string>
+    <string name="Less">Vähemmän</string>
+</resources>

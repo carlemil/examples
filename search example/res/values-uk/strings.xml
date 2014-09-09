@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- sessionID = a3lc1c-vc7zc-hst3ew9s-1-htiiwrt2-3jf -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="View">Отримати</string>
+    <string name="Share">Обмінятись</string>
+    <string name="InfoWelcome">Вітаємо в Sony Select</string>
+    <string name="InfoItsFree">Абсолютно безкоштовно. Без реєстрації.</string>
+    <string name="InfoDataTraffic">Ця програма передаватиме дані у фоновому режимі. Для кращих результатів і зменшення використання мобільних даних підключіться до мережі Wi-Fi.</string>
+    <string name="InfoShareUsageData">З метою покращення рекомендацій я погоджуюся надавати дані щодо використання компанії Sony, наприклад дані про використання програм та ідентифікатор пристрою. Див. нашу &lt;a href=\"http://www.sonyericsson.com/cws/corporate/common/legal/privacy\"&gt;Політику конфіденційності&lt;/a&gt;.</string>
+    <string name="Continue">Продовжити</string>
+    <string name="NoNetworkError">Відсутнє з’єднання мережі. Повторіть спробу пізніше.</string>
+    <string name="License">Ліцензія</string>
+    <string name="DisclaimerMenuOption">Відмова від відповідальн.</string>
+    <string name="More">Подробиці</string>
+    <string name="Less">Сховати подроб.</string>
+</resources>

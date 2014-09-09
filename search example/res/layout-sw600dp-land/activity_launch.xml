@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/launch_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/errormessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:paddingLeft="64dp"
+        android:paddingRight="64dp"
+        android:text="@string/NoNetworkError"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/retrybutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingLeft="64dp"
+        android:paddingRight="64dp"
+        android:layout_below="@id/errormessage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_refresh_bt"
+        android:visibility="gone"
+        android:contentDescription="@null"/>
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminate="true"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:baselineAligned="true"
+        android:orientation="horizontal" >
+
+        <fragment
+            android:id="@id/details"
+            android:name="com.sonymobile.sonyselect.fragment.DetailsFragment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.35" />
+
+        <fragment
+            android:id="@id/lists"
+            android:name="com.sonymobile.sonyselect.fragment.ListsFragment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.65"
+            android:paddingLeft="@dimen/default_margin_vertical"
+            android:paddingRight="@dimen/default_margin_vertical" />
+    </LinearLayout>
+
+</RelativeLayout>

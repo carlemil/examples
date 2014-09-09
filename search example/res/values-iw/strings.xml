@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- sessionID = a3lc1c-vc7zc-hst3ew9s-1-htiiwrt2-3jf -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="StorePickerOK">אישור</string>
+    <string name="View">קבל</string>
+    <string name="Share">שתף</string>
+    <string name="InfoWelcome">ברוך הבא ל-‏Sony Select</string>
+    <string name="InfoItsFree">השימוש אינו כרוך בתשלום. אין צורך להירשם.</string>
+    <string name="InfoDataTraffic">ביישום זה תבוצע העברת נתונים ברקע. לביצועים משופרים וצמצום היקף השימוש בנתונים סלולריים, התחבר לרשת Wi-Fi‏.</string>
+    <string name="InfoShareUsageData">לצורך שיפור איכות ההמלצות, אני מסכים לשתף עם Sony נתוני שימוש, כגון השימוש ביישומים ומזהה המכשיר. ראה &lt;a href=\"http://www.sonyericsson.com/cws/corporate/common/legal/privacy\"&gt;מדיניות הפרטיות&lt;/a&gt;.</string>
+    <string name="Continue">המשך</string>
+    <string name="NoNetworkError">אין חיבור לרשת. נסה מאוחר יותר.</string>
+    <string name="License">רישיון</string>
+    <string name="DisclaimerMenuOption">כתב ויתור</string>
+    <string name="More">עוד</string>
+    <string name="Less">פחות</string>
+</resources>

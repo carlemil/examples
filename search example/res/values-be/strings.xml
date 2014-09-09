@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- sessionID = a3lc1c-vc7zc-hst3ew9s-1-htiiwrt2-3jf -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="StorePickerOK">ОК</string>
+    <string name="View">Набыць</string>
+    <string name="Share">Абмяняцца</string>
+    <string name="InfoWelcome">Вітаем у Sony Select</string>
+    <string name="InfoItsFree">Бясплатнае. Не патрэбна рэгістрацыя.</string>
+    <string name="InfoDataTraffic">Гэтае прыкладанне перадае дадзеныя ў фоне. Для забеспячэння лепшай працы і памяншэння выкарыстання мабільных дадзеных падлучыцеся да сеткі Wi-Fi.</string>
+    <string name="InfoShareUsageData">Для паляпшэння рэкамендацый я пагаджаюся даць Sony доступ да дадзеных па выкарыстанні, такіх як выкарыстанне прыкладанняў і ідэнтыфікатар прылады. Гл. нашу &lt;a href=\"http://www.sonyericsson.com/cws/corporate/common/legal/privacy\"&gt;Палітыку канфідэнцыяльнасці&lt;/a&gt;.</string>
+    <string name="Continue">Працягнуць</string>
+    <string name="NoNetworkError">Адсутнічае сеткавае падлучэнне. Паўтарыце спробу пазней.</string>
+    <string name="License">Ліцэнзія</string>
+    <string name="DisclaimerMenuOption">Адмова ад адказнасці</string>
+    <string name="More">Больш</string>
+    <string name="Less">Менш</string>
+</resources>

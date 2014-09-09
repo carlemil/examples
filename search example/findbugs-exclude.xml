@@ -1,0 +1,15 @@
+<FindBugsFilter>
+	<Match>
+		<Class name="~.*\.R$" />
+	</Match>
+	<Match>
+		<Class name="~.*\.R\$.*$" />
+	</Match>
+	<Match>
+		<Class name="~.*\.Manifest\$.*$" />
+	</Match>
+	<Match>
+		<Bug category="MALICIOUS_CODE" />
+	</Match>
+</FindBugsFilter>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- sessionID = a3lc1c-vc7zc-hst3ew9s-1-htiiwrt2-3jf -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="View">Hangi</string>
+    <string name="Share">Jaga</string>
+    <string name="InfoWelcome">Tere tulemast Sony Selecti</string>
+    <string name="InfoItsFree">See on tasuta ja registreeruda pole vaja.</string>
+    <string name="InfoDataTraffic">See rakendus edastab andmeid taustal. Mobiilandmeside kasutuse vähendamiseks ja paremaks jõudluseks, ühenduge Wi-Fi võrguga.</string>
+    <string name="InfoShareUsageData">Soovituste parendamiseks nõustun oma kasutusandmeid (nagu rakenduste kasutamist ja seadme ID) Sonyga jagama. Vt &lt;a href=\"http://www.sonyericsson.com/cws/corporate/common/legal/privacy\"&gt;Privaatsuspoliitikat&lt;/a&gt;.</string>
+    <string name="Continue">Jätka</string>
+    <string name="NoNetworkError">Võrguühendus puudub. Palun proovige hiljem uuesti.</string>
+    <string name="License">Litsents</string>
+    <string name="DisclaimerMenuOption">Lahtiütlus</string>
+    <string name="More">Rohkem</string>
+    <string name="Less">Vähem</string>
+</resources>

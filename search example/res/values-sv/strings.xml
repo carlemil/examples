@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- sessionID = a3lc1c-vc7zc-hst3ew9s-1-htiiwrt2-3jf -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="View">Skaffa</string>
+    <string name="Share">Dela</string>
+    <string name="InfoWelcome">Välkommen till Sony Select</string>
+    <string name="InfoItsFree">Det är kostnadsfritt. Ingen registrering krävs.</string>
+    <string name="InfoDataTraffic">Den här appen överför data i bakgrunden. För bättre prestanda och för att minska dataanvändningen kan du ansluta till ett Wi-Fi-nätverk.</string>
+    <string name="InfoShareUsageData">För bättre rekommendationer går jag med på att dela användningsdata med Sony, exempelvis appanvändning och enhets-ID. Se vår &lt;a href=\"http://www.sonyericsson.com/cws/corporate/common/legal/privacy\"&gt;Sekretesspolicy&lt;/a&gt;.</string>
+    <string name="Continue">Fortsätt</string>
+    <string name="NoNetworkError">Ingen nätverksanslutning. Försök igen senare.</string>
+    <string name="License">Licens</string>
+    <string name="DisclaimerMenuOption">Friskrivning</string>
+    <string name="More">Mer</string>
+    <string name="Less">Mindre</string>
+</resources>

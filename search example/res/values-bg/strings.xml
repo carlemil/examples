@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- sessionID = a3lc1c-vc7zc-hst3ew9s-1-htiiwrt2-3jf -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="StorePickerOK">ОК</string>
+    <string name="View">Получаване</string>
+    <string name="Share">Споделяне</string>
+    <string name="InfoWelcome">Добре дошли в Sony Select</string>
+    <string name="InfoItsFree">Безплатно е за използване. Не е необходимо регистриране.</string>
+    <string name="InfoDataTraffic">Това приложение ще прехвърля данни на фона. За по-добра работа и за намаляване на използването на мобилни данни се свържете към Wi-Fi мрежа.</string>
+    <string name="InfoShareUsageData">С цел подобряване на препоръките се съгласявам да споделям данни за използването със Sony, например данни за използване на приложението и ИД на устройството. Вижте нашите &lt;a href=\"http://www.sonyericsson.com/cws/corporate/common/legal/privacy\"&gt;Правила за поверителност&lt;/a&gt;.</string>
+    <string name="Continue">Продължаване</string>
+    <string name="NoNetworkError">Няма мрежова връзка. Опитайте отново по-късно.</string>
+    <string name="License">Лиценз</string>
+    <string name="DisclaimerMenuOption">Отказ от отговорност</string>
+    <string name="More">Повече</string>
+    <string name="Less">По-малко</string>
+</resources>

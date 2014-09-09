@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="UnusedResources">
+        <ignore path="res/xml/textparameter.xml" />
+    </issue>
+    <issue id="IconMissingDensityFolder" severity="ignore" />
+    <issue id="InconsistentLayout">
+        <ignore path="res/layout-sw600dp/featured_item.xml" />
+    </issue>
+    <issue id="MissingTranslation" severity="ignore">
+        <ignore path="res/values-en-rCA/strings.xml" />
+        <ignore path="res/values-en-rUS/strings.xml" />
+        <ignore path="res/values-en/strings.xml" />
+    </issue>
+</lint>

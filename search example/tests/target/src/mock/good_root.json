@@ -1,0 +1,16 @@
+{
+    "links": [
+        {
+            "rel": "suggest",
+            "href": "http://api.dev.appmetadata.sonymobile.com/suggest"
+        },
+        {
+            "rel": "search",
+            "href": "http://api.dev.appmetadata.sonymobile.com/search"
+        },
+        {
+            "rel": "self",
+            "href": "http://api.dev.appmetadata.sonymobile.com"
+        }
+    ]
+}

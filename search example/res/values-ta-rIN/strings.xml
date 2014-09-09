@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- sessionID = a3lc1c-vc7zc-hst3ew9s-1-htiiwrt2-3jf -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="StorePickerOK">சரி</string>
+    <string name="View">பெறு</string>
+    <string name="Share">பகிர்</string>
+    <string name="InfoWelcome">Sony Select க்கு வருக</string>
+    <string name="InfoItsFree">இலவசம். பதிவு வேண்டாம்.</string>
+    <string name="InfoDataTraffic">இந்தப் பயன்பாடு, பின்புல. தரவை அனுப்பும். சிறந்த பணி, குறைவான மொ. தரவு பயன்பாட். Wi-Fi நெட். உடன் இணைக.</string>
+    <string name="InfoShareUsageData">பரிந்துரை. மேம்படுத்த, Sony இடம் பயன்பாட்டு தரவை பகிர்கி. இதில் ஆப்ஸ் உபயோ., சாதன ஐடி அடங்கும். &lt;a href=\"http://www.sonyericsson.com/cws/corporate/common/legal/privacy\"&gt;தனியுரிமைக் கொள்கையை&lt;/a&gt; காண்.</string>
+    <string name="Continue">தொடர்</string>
+    <string name="NoNetworkError">பிணைய இணைப்பு இல்லை. தயவுசெய்து பின்னர் மீண்டும் முயற்சிக்கவும்.</string>
+    <string name="License">உரிமம்</string>
+    <string name="DisclaimerMenuOption">கைதுறப்பு</string>
+    <string name="More">அதிகம்</string>
+    <string name="Less">குறைவு</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- sessionID = a3lc1c-vc7zc-hst3ew9s-1-htiiwrt2-3jf -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="StorePickerOK">Labi</string>
+    <string name="View">Iegūt</string>
+    <string name="Share">Koplietot</string>
+    <string name="InfoWelcome">Laipni lūdzam Sony Select!</string>
+    <string name="InfoItsFree">Bezmaksas lietotne bez reģistrēšanās</string>
+    <string name="InfoDataTraffic">Šī lietotne pārsūtīs datus fonā. Lai nodrošinātu labāku veiktspēju un samazinātu mobilo datu lietojumu, izveidojiet savienojumu ar Wi-Fi tīklu.</string>
+    <string name="InfoShareUsageData">Lai uzlabotu ieteikumus, es piekrītu kopīgot lietošanas datus, piemēram, lietotņu izmantošanas datus un ierīces ID, ar Sony. Skatiet mūsu &lt;a href=\"http://www.sonyericsson.com/cws/corporate/common/legal/privacy\"&gt;konfidencialitātes politiku&lt;/a&gt;.</string>
+    <string name="Continue">Turpināt</string>
+    <string name="NoNetworkError">Nav tīkla savienojuma. Lūdzu, mēģiniet vēlreiz vēlāk.</string>
+    <string name="License">Licence</string>
+    <string name="DisclaimerMenuOption">Atruna</string>
+    <string name="More">Vairāk</string>
+    <string name="Less">Mazāk</string>
+</resources>

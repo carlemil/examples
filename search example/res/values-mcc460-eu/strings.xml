@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- sessionID = a3lc1c-vc7zc-hst3ew9s-1-htiiwrt2-3jf -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="InfoDataTraffic">Aplikazio honek datuak transferituko ditu atzeko planoan. Errendimendu hobea lortzeko eta datu mugikorren erabilera murrizteko, konektatu WLAN sare batera.</string>
+</resources>
