@@ -1,0 +1,28 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.11.1'
+    }
+}
+
+apply plugin: 'android'
+
+dependencies {
+    compile files('libs/super_math.jar')
+}
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "20.0.0"
+
+	sourceSets {
+	    main.java.srcDirs = ['src']
+	    main.res.srcDirs = ['res']
+	    main.manifest.srcFile 'AndroidManifest.xml'
+	}
+}
+
+

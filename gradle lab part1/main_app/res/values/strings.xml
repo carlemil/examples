@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gradle_lab</string>
+    <string name="hello_world">Welcome to the gradle lab!</string>
+    <string name="action_settings">Settings</string>
+    <string name="addition_intro">The super_math framwork can add:</string>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/home/carlemil/dev/gradle lab part1/main_app/build/intermediates/pre-dexed/debug/super_math-471c7f268e2564e3a98ac1c59aefba6c873f79ce.jar"
+        jar="/home/carlemil/dev/gradle lab part1/main_app/libs/super_math.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="dc4e8d9ff9756e85a9f323f33755b7c4e27d3e5d"/>
+
+</pre-dex-items>
