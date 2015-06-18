@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- sessionID = a3lc1c-vc7zc-hst3ew9s-1-htiiwrt2-3jf -->
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="InfoDataTraffic">এই অ্যাপটি প্রেক্ষাপটে ডেটা স্থানান্তরণ করবে। উন্নতর কার্যসম্পাদনের জন্য এবং মোবাইল ডেটা ব্যবহার কমাতে, একটি WLAN নেটওয়ার্কে সংযোগ করুন।</string>
-</resources>

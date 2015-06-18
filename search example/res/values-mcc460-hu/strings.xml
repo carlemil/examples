@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- sessionID = a3lc1c-vc7zc-hst3ew9s-1-htiiwrt2-3jf -->
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="InfoDataTraffic">Ez az alkalmazás a háttérben továbbít adatokat. A jobb teljesítmény és a mobil adathasználat elkerülése érdekében csatlakozzon egy WLAN hálózathoz.</string>
-</resources>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- sessionID = a3lc1c-vc7zc-hst3ew9s-1-htiiwrt2-3jf -->
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="InfoDataTraffic">이 응용프로그램은 백그라운드에서 데이터를 전송합니다. 성능을 개선하고 모바일 데이터 사용량을 줄이려면 WLAN 네트워크에 연결하세요.</string>
-</resources>

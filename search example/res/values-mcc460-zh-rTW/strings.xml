@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- sessionID = a3lc1c-vc7zc-hst3ew9s-1-htiiwrt2-3jf -->
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="InfoDataTraffic">此應用程式將在後台傳輸資料。為提升性能並減少行動資料使用量，請連線至WLAN網路。</string>
-</resources>

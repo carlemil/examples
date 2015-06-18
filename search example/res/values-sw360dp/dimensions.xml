@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <dimen name="promo_header_height">204dp</dimen>
-    <dimen name="promo_plate_padding_bottom">14dp</dimen>
-
-</resources>
